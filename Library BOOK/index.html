@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel ="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+
+ <body>
+  
+  <div class = "navigation-bar">
+		<div id ="navigation-container">
+			<img src ="images/profile.jpg" class = "logo">
+
+      <input type = "text" name ="txt" id = "txt" placeholder="enter name"> <button onclick="search();">Search</button>
+      
+      
+			<ul>
+				<li id = "list"><a href="login.html">Login</a></li>
+					<li id = "list"><a href="login.html">Register</a></li>
+	
+					</ul>
+				</div>
+                </div>
+			<div class ="popular">
+                <h1 class ="text">popular authors</h1>
+            </div>
+
+			
+            <div class="container-box">
+                
+               <div class ="my-name">
+                   <img src ="images/tr.jpg" class ="vito">
+                   <p class ="nam">Trevor Noah</p>
+               </div>
+               <div class ="my-name1">
+                   <img src ="images/123.jpg" class ="vito">
+                   <p class ="nam">lydia davis</p>
+               </div>
+               <div class ="my-name1">
+                <img src ="images/neww.jpg" class ="vito">
+                <p class ="nam">james patterson</p>
+                            </div>
+                            <div class ="my-name1">
+                                <img src ="images/newww.jpg" class ="vito">
+                                <p class ="nam">jodi picoult</p>
+                                            </div>
+                                            <div class ="my-name1">
+                                                <img src ="images/th.jpg" class ="vito">
+                                                <p class ="nam">Walber smith</p>
+                                                            </div>
+                            
+
+                            </div>
+            
+            <div class ="popular">
+                <h1 class ="text">Book you read</h1>
+            </div>
+            <div class ="books">
+                <div class ="book1">
+                    <img src = "images/mandela.jpg" class ="buku">
+                    <p class ="para">long walk to freedom release in 2007.this the book base in the story of nelson mandela. every year the book almost sell 30000 copies</p>
+                </div>
+                
+                <div class ="book2">
+                    <img src = "images/download-59.jpg" class ="buku1">
+                    <p class ="para">long walk to freedom release in 2007.this the book base in the story of nelson mandela. every year the book almost sell 30000 copies</p>
+                </div>
+                <div class ="book3">
+                    <img src = "images/51IEZZAx4yL._SX341_BO1_204_203_200_large.webp" class ="buku2">
+                    <p class ="para">long walk to freedom release in 2007.this the book base in the story of nelson mandela. every year the book almost sell 30000 copies</p>
+                </div>
+                <div class ="book3">
+                    <img src = "images/51IEZZAx4yL._SX341_BO1_204_203_200_large.webp" class ="buku2">
+                    <p class ="para">long walk to freedom release in 2007.this the book base in the story of nelson mandela. every year the book almost sell 30000 copies</p>
+                </div>
+            </div>
+            <div class ="popular">
+                <h1 class ="text">Latests Books</h1>
+            </div>
+            <div class ="boxes">
+                <div class ="box1">
+                    <img src ="images/vutomi.jpg"  class ="tibuku1">
+                    
+                </div>
+                <div class ="box1">
+                    <img src ="images/Hawk2-FB-post-1080x1080-1-800x800.jpg"  class ="tibuku">
+                    
+                </div>
+                <div class ="box1">
+                    <img src ="images/hlamba-final-cover.jpg"  class ="tibuku">
+                    
+                </div>
+                <div class ="box1">
+                    <img src ="images/570ccb911d443.jpeg"  class ="tibuku">
+                    
+                </div>
+                <div class ="box1">
+                    <img src ="images/out-now.jpg"  class ="tibuku">
+                    
+            </div>
+            <script>
+                  var myArray = ["mandela","don","john","jess","don"];
+        function search()
+        {
+          var txt = document.getElementById('txt').value;
+          var index = myArray.indexOf(txt);
+          if(index !== -1)
+          {
+            alert('Book is available please login to hire');
+          }
+          else{
+            alert('requested book not found')
+          }
+        }
+              </script>
+
+            
+
+
+
+
+
+
+ </body>
+ </html>
+  

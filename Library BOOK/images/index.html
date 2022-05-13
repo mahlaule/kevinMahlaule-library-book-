@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel ="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   
+  <body>
+    <div class ="header">
+    
+      
+      <img src ="images/profile.jpg" class ="log"><a href="Register.html">Register</a>
+      <a href="Register.html">login</a>
+      
+        
+     
+      <input type = "text" name ="txt" id = "txt" placeholder="enter name"> <button onclick="search();">Search</button>
+     
+     
+    </div>
+
+    <p class = "latest">latests books in the site</p>
+  
+      
+      <div class ="container">
+        
+          
+          <div class ="box1">
+
+            <img src = "images/mandela.jpg" class = "pic1">
+            <p class = "para">Mandela Long walk to freedom. released year 2001. the book wrote based on mandela stories</p>
+       
+          </div>
+              <div class = "box2">
+                <img src = "images/dis.jpg" class ="pic2">
+              <p class ="para">Disgrace unbridge.released year 2010 by j.m cotzee.it based in true stories</p>
+                
+
+              </div>
+              <div class = "box3">
+                <img src = "images/ts.jpg" class ="pic3">
+                <p class ="para">ways of dying by Mda.released year 2012.this the book about life in general</p>
+
+              </div>
+              <div class ="box4">
+                <img src = "images/tr.jpg" class = "pic4">
+                <p class ="para">Trevor Noah. released year 2016. born a crime and other stories. a worldwide best seller</p>
+
+              </div>
+              <div class ="box5">
+                <p class = "topic">famous authors</p>
+                <div class ="photo1">
+                  <img src = "images/new.jpg" class = "new">
+                  <p class = "graph">Trevor noah</p>
+                  
+                </div>
+                <div class ="photo2">
+                  <img src = "images/neww.jpg" class = "neww">
+                  <p class="graph"> Antjie Krog</p>
+                </div>
+                <div class = "photo3">
+                  <img src = "images/newww.jpg" class = "new">
+                  <p class = "graph">Zakes Mda</p>
+                </div>
+                <div class ="photo4">
+                  <img src = "images/jk.jpg" class = "new">
+                  <p class ="graph">j.k Rowling</p>
+                </div>
+              </div>
+             
+          
+          </div>
+          <div class = "second-container">
+            <div class="box6">
+          <p>lease pick or choose one of the latest books </p>
+          </div>
+          <div class ="box7">
+            <p class = "new-book">latest book</p>
+            <img src = "images/570ccb911d443.jpeg" class = "pic7">
+          </div>
+          <div class ="box8">
+            <p class = "new-book">latest book</p>
+            <img src = "images/cover-122.jpeg" class = "pic8">
+          </div>
+          <div class ="box9">
+            <p class = "new-book">latest book</p>
+            <img src = "images/hlamba-final-cover.jpg" class ="pic9">
+          </div>
+          <div class ="box10">
+            <p class = "new-book">latest book</p>
+            <img src = "images/vutomi.jpg" class ="pic10">
+          </div>
+          </div>
+    
+      <script>
+        var myArray = ["mandela","don","john","jess","don"];
+        function search()
+        {
+          var txt = document.getElementById('txt').value;
+          var index = myArray.indexOf(txt);
+          if(index !== -1)
+          {
+            alert('Book is available please login to hire');
+          }
+          else{
+            alert('requested book not found')
+          }
+        }
+              </script>
+
+              
+
+  </body>
+  </html>
+  
+ 
+  
+
+  

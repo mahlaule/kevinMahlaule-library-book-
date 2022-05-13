@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<body>
+    <input type="file" id="file" onchange="FileValidation(event)" >
+   Uploaded Image<img id="output">
+</body>
+<script>
+    FileValidation = (event) => {
+        var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+        const fi = document.getElementById("file");
+        if (fi.files.length > 0) {
+            for (const i = 0; i <= fi.files.length - 1; i++) {
+                const fsize = fi.files.item(i).size;
+                const file = Math.round((fsize / 1024));
+}
+}
+}
+</script>
+</body>
+</html>
